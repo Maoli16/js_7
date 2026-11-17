@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- ---------1-------- -->
+<div class="box">
+        <h1> Улюблена гра або фільм</h1>
+
+        <p>Введіть назву улюбленої гри або фільму:</p>
+
+        <input type="text" id="favorite" placeholder="Назва гри або фільму">
+
+        <button onclick="saveFavorite()">Зберегти</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <!-- -------2------ -->
+<div class="box">
+        <h1-2> Лічильник енергії</h1-2>
+
+        <h2 id="energy">Енергія: 100</h2>
+
+        <button onclick="spendEnergy()">Витратити 10 енергії</button>
+
+        <button onclick="restoreEnergy()">Відновити</button>
+
+        <p id="message"></p>
+    </div>
+
+    <!-- --------3-------- -->
+
+<div class="task3">
+    <h1> Магазин скінів</h1>
+
+    <h2 id="coins"> Монети: 50</h2>
+
+    <h3 id="skin">Скін: Звичайний</h3>
+
+    <button onclick="buySkin()">
+        Купити Золотий скін (30 монет)
+    </button>
+
+    <p id="shopMessage"></p>
+</div>
+
+<!-- ------4--------- -->
+<div class="task4">
+    <h1> Вгадай секретне слово</h1>
+
+    <p>Спробуйте вгадати загадане слово!</p>
+
+    <form id="wordForm">
+        <input type="text" id="wordInput" placeholder="Введіть слово" required>
+        <button type="submit">Вгадати</button>
+    </form>
+
+    <h3 id="wordMessage"></h3>
+
+    <h3>Невдалі спроби:</h3>
+
+    <ul id="wrongList"></ul>
+
+    <button onclick="clearWrong()">Очистити список</button>
+</div>
+
+<!-- --------5----------- -->
+   <div class="task5">
+    <h1>🎮 Вгадай число</h1>
+
+    <p>Оберіть рівень складності:</p>
+
+    <div class="levels5">
+        <button type="button" onclick="setLevel5(20, 'easy')">Easy</button>
+        <button type="button" onclick="setLevel5(100, 'normal')">Normal</button>
+        <button type="button" onclick="setLevel5(1000, 'hard')">Hard</button>
+        <button type="button" onclick="setLevel5(10000, 'extreme')">Extreme</button>
+    </div>
+
+    <h3 id="level5">Normal: 1–100</h3>
+
+    <h2 id="attempts5">Спроб: 0</h2>
+
+    <h2 id="record5"> Рекорд: ще немає</h2>
+
+    <p id="message5">Введіть число і натисніть «Перевірити»</p>
+
+    <input type="number" id="guess5" min="1" max="100" placeholder="1–100">
+
+    <button type="button" onclick="checkGuess5()">Перевірити</button>
+
+    <div class="buttons5">
+        <button type="button" onclick="newGame5()">Нова гра</button>
+        <button type="button" onclick="resetRecord5()">Скинути рекорд</button>
+    </div>
+</div>
+
+
+
+<script src="/js/app.js"></script>
+</body>
+</html>

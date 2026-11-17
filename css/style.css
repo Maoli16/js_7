@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    text-align: center;
+    margin: 0;
+    padding: 40px 15px;
+}
+/* ---------1--------- */
+.box {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 450px;
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    color: #38bdf8;
+}
+
+input {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background: #334155;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    background: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #15803d;
+}
+
+#result {
+    color: #4ade80;
+    margin-top: 25px;
+}
+
+/* ---------2-------- */
+.box {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 450px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+h1-2 {
+    color: #38bdf8;
+}
+
+h2 {
+    color: #4ade80;
+    font-size: 30px;
+    margin: 30px;
+}
+
+button {
+    padding: 12px 15px;
+    background: #26dc54;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:nth-of-type(2) {
+    background: #16a34a;
+}
+
+#message {
+    color: #facc15;
+    margin-top: 20px;
+}
+
+/* ---------3--------- */
+.task3 {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 450px;
+    max-width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+}
+.task3 h1 {
+    color: #38bdf8;
+}
+
+#coins {
+    color: #facc15;
+    font-size: 30px;
+}
+
+#skin {
+    color: #4ade80;
+    font-size: 24px;
+}
+
+.task3 button {
+    padding: 12px 18px;
+    background: #eab308;
+    color: #111827;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.task3 button:hover {
+    background: #facc15;
+}
+
+#shopMessage {
+    color: #4ade80;
+    margin-top: 20px;
+}
+
+/* ------4-------- */
+.task4 {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 450px;
+    max-width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+}
+
+.task4 h1 {
+    color: #38bdf8;
+}
+
+.task4 input {
+    padding: 10px;
+    background: #334155;
+    color: white;
+    border: 1px solid #64748b;
+    border-radius: 7px;
+}
+
+.task4 button {
+    padding: 10px 15px;
+    background: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.task4 button:hover {
+    background: #15803d;
+}
+
+#wordMessage {
+    color: #4ade80;
+}
+
+#wrongList {
+    color: #f87171;
+    text-align: left;
+    display: inline-block;
+}
+
+
+
+
+/* ---------5------------ */
+.task5 {
+    background: #1e293b;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 480px;
+    max-width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.task5 h1 {
+    color: #38bdf8;
+}
+
+.levels5 {
+    margin: 20px 0;
+}
+
+.task5 button {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 4px;
+    background: #0891b2;
+}
+
+.task5 button:hover {
+    opacity: 0.8;
+}
+
+.levels5 button:nth-child(1) {
+    background: #16a34a;
+}
+
+.levels5 button:nth-child(2) {
+    background: #2563eb;
+}
+
+.levels5 button:nth-child(3) {
+    background: #ea580c;
+}
+
+.levels5 button:nth-child(4) {
+    background: #dc2626;
+}
+
+#level5 {
+    color: #38bdf8;
+}
+
+#attempts5 {
+    color: #38bdf8;
+}
+
+#record5 {
+    color: #4ade80;
+}
+
+#message5 {
+    color: #facc15;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+#guess5 {
+    width: 110px;
+    padding: 10px;
+    background: #334155;
+    color: white;
+    border: 1px solid #64748b;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.buttons5 {
+    margin-top: 15px;
+}
+
+.buttons5 button {
+    background: #475569;
+}
